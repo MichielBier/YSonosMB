@@ -1,0 +1,15 @@
+[package]
+name = "YSonosMB"
+version = "0.1.0"
+edition = "2021"
+authors = ["Michiel Biersteker", "Michiel Biersteker <m.n.biersteker@gmail.com>"]
+description = "YSonosMB. Is a binary that discovers sonos devices and gives your basic controls"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[toolchain]
+channel = "nightly"
+
+[dependencies]
+egui = "0.21.0"
+eframe = "*"
+tracing-subscriber = "0.3"
+sonos = "0.1.4"
